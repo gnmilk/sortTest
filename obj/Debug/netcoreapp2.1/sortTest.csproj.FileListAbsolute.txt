@@ -1,0 +1,11 @@
+C:\Users\jh.tsai\Desktop\sortTest\bin\Debug\netcoreapp2.1\sortTest.deps.json
+C:\Users\jh.tsai\Desktop\sortTest\bin\Debug\netcoreapp2.1\sortTest.runtimeconfig.json
+C:\Users\jh.tsai\Desktop\sortTest\bin\Debug\netcoreapp2.1\sortTest.runtimeconfig.dev.json
+C:\Users\jh.tsai\Desktop\sortTest\bin\Debug\netcoreapp2.1\sortTest.dll
+C:\Users\jh.tsai\Desktop\sortTest\bin\Debug\netcoreapp2.1\sortTest.pdb
+C:\Users\jh.tsai\Desktop\sortTest\obj\Debug\netcoreapp2.1\sortTest.csprojAssemblyReference.cache
+C:\Users\jh.tsai\Desktop\sortTest\obj\Debug\netcoreapp2.1\sortTest.csproj.CoreCompileInputs.cache
+C:\Users\jh.tsai\Desktop\sortTest\obj\Debug\netcoreapp2.1\sortTest.AssemblyInfoInputs.cache
+C:\Users\jh.tsai\Desktop\sortTest\obj\Debug\netcoreapp2.1\sortTest.AssemblyInfo.cs
+C:\Users\jh.tsai\Desktop\sortTest\obj\Debug\netcoreapp2.1\sortTest.dll
+C:\Users\jh.tsai\Desktop\sortTest\obj\Debug\netcoreapp2.1\sortTest.pdb
