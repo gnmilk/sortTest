@@ -2,9 +2,9 @@ using System;
 
 namespace sortTest
 {
-    public class bubble
+    public class selection
     {
-        public static void bubbleSort()
+        public static void selectionSort()
         {
             int[] array = new int[5000];
             Random Rnd = new Random();
@@ -15,22 +15,24 @@ namespace sortTest
 
         private static void sort(int[] array)
         {
-            for (int i = 0; i < array.Length; i++)
-                for (int j = 0; j < array.Length - 1 - i; j++)
+            for (int i = 0; i <= array.Length; i++)
+            {
+                int min = 0;
+                for (int j = i + 1; j < array.Length; j++)
                 {
-                    if (array[j] > array[j + 1])
-                        swap(array, j);
+                    if (array[j] <= min)
+                    {
+                        int tmp = array[j];
+                        array[j] = min;
+                        min = tmp;
+                    }
                 }
-            for (int i = 0; i < array.Length; i++)
-                Console.WriteLine(array[i]);
-        }
+            }
 
-        private static int[] swap(int[] array, int j)
-        {
-            int tmp = array[j + 1];
-            array[j + 1] = array[j];
-            array[j] = tmp;
-            return array;
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.WriteLine(array[i]);
+            }
         }
     }
 }
